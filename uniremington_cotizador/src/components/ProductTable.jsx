@@ -19,7 +19,7 @@ const ProductTable = ({ products }) => {
           <td>200</td>
           <td>5</td>
           <td>0</td>
-          <td></td>
+          <td><Button variant="warning" size="sm" className="me-2">Edit</Button><Button variant="danger" size="sm">Delete</Button></td>
         </tr>
         <tr>
         <td>2</td>
@@ -28,7 +28,7 @@ const ProductTable = ({ products }) => {
           <td>300</td>
           <td>5</td>
           <td>0</td>
-          <td></td>
+          <td><Button variant="warning" size="sm" className="me-2">Edit</Button><Button variant="danger" size="sm">Delete</Button></td>
         </tr>
         <tr>
         <td>3</td>
@@ -37,7 +37,7 @@ const ProductTable = ({ products }) => {
           <td>400</td>
           <td>5</td>
           <td>0</td>
-          <td></td>
+          <td><Button variant="warning" size="sm" className="me-2">Edit</Button><Button variant="danger" size="sm">Delete</Button></td>
         </tr>
       </tbody>
         </Table>
